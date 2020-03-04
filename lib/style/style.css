@@ -4,24 +4,11 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  color: #031b4e;
 }
 
 
-
-section, footer {
-  height: 600px;
-  border: solid 2px red;
-}
-
-
-
-[class*="col-"] {
-  height: 100px;
-  border: solid 1px black;
-}
-
-
-/************ header *************/
+/************ inizio header *************/
 header {
   height: 50px;
 }
@@ -59,11 +46,98 @@ header {
 }
 
 .navbar-brand {
-  margin-right: 20px;
-  padding: 11px 0 11px 0;
+  margin-right: 60px;
+  padding: 11px 0 11px 15px;
+}
+/******** fine header *********/
+
+
+/******* inizio sezione jumbotron ********/
+#jumbotron {
+  background: url(../../img/sfondo-jumbotron.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0;
+}
+
+.jumbotron-title h1 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.jumbotron-title p {
+  color: #fff;
+  font-size: 20px;
+  opacity: .8;
+  line-height: 36px;
+}
+
+#jumbotron .jumbotron-form {
+  padding: 20px 15px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 4px;
+}
+
+#jumbotron .jumbotron-form h2 {
+  font-weight: 700;
+  line-height: 42px;
+}
+
+#jumbotron .jumbotron-form h2 .blue {
+  color: #1E68F9;
+}
+
+#jumbotron form {
+  background: #fff;
+}
+
+#jumbotron .jumbotron-input {
+  height: 48px;
+  color: #031b4e;
+  font-size: 16px;
+  border-color: #f1f1f1;
+  box-shadow: none;
+}
+
+#jumbotron .jumbotron-input:focus {
+  border: solid 1px #1E68F9;
+}
+
+#jumbotron .account {
+  background: #1E68F9;
+  border-color: #1E68F9;
+  font-size: 16px;
 }
 
 
+#jumbotron .account:hover {
+  background: #1633ff;
+}
+
+#jumbotron .google {
+  background: #fff;
+  font-size: 16px;
+  border-color: #fff;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+}
+
+#jumbotron .google:hover {
+  color: #000;
+  background: #f5f5f5;
+  border-color: #f5f5f5;
+}
+
+#jumbotron form p {
+  font-size: 12px;
+}
+
+#jumbotron form p a {
+  color: #1E68F9;
+  text-decoration: underline;
+}
+/******** fine sezione jumbotron *********/
 
 
 
