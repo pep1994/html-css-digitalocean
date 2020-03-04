@@ -7,6 +7,10 @@
   color: #031b4e;
 }
 
+h2 {
+  font-weight: 700;
+}
+
 
 /************ inizio header *************/
 header {
@@ -68,7 +72,7 @@ header {
 
 .jumbotron-title p {
   color: #fff;
-  font-size: 20px;
+  font-size: 21px;
   opacity: .8;
   line-height: 36px;
 }
@@ -81,7 +85,6 @@ header {
 }
 
 #jumbotron .jumbotron-form h2 {
-  font-weight: 700;
   line-height: 42px;
 }
 
@@ -192,7 +195,55 @@ header {
 .partners-link a i:hover {
   color: #1633ff;
 }
+/****** fine sezione partners ******/
 
+/******** inizio sezione informations ********/
+#informations {
+
+}
+
+.informations-title {
+  text-align: center;
+}
+
+.informations-title p {
+  font-size: 21px;
+  opacity: .8;
+}
+
+.informations-list ul {
+  list-style-type: none;
+  border-left: solid 1px rgba(3,27,78, .3);
+  margin-top: 35px;
+}
+
+.informations-list ul li {
+  padding: 10px 15px;
+}
+
+.informations-list li a {
+  font-size: 16px;
+  color: rgba(3,27,78,.5);
+}
+
+.informations-list li a:hover {
+  color: #031b4e;
+  text-decoration: none;
+}
+
+.information-icon-item {
+  
+}
+
+.information-icon-item h4 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.information-icon-item p {
+  font-size: 17px;
+  opacity: .8;
+}
 
 
 
