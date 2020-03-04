@@ -139,9 +139,59 @@ header {
 }
 /******** fine sezione jumbotron *********/
 
+/**** inizio sezione partners ****/
+#partners {
+  background: #F3F5F9;
+  padding: 40px 0;
+}
 
+#partners h5 {
+  color: #949DB4;
+  text-align: center;
+  letter-spacing: .8px;
+  font-weight: 700;
+}
 
+#partners img {
+  width: 150px;
+  height: 88px;
+}
 
+#partners .splunk {
+  height: 45px;
+}
+
+#partners .item-splunk {
+  padding-top: 23px;
+}
+
+.partner {
+  padding: 0 20px;
+}
+
+.partners-link {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.partners-link a {
+  font-size: 14px;
+  color: #3669F0;
+}
+
+.partners-link a i {
+  font-size: 14px;
+  color: #3669F0;
+  margin-left: 7px;
+}
+
+.partners-link a:hover {
+  color: #1633ff;
+}
+
+.partners-link a i:hover {
+  color: #1633ff;
+}
 
 
 
