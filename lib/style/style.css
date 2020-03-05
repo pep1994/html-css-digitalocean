@@ -11,6 +11,26 @@ h2 {
   font-weight: 700;
 }
 
+.link-blue {
+ font-size: 14px;
+ color: #3669F0;
+}
+
+.link-blue i {
+  font-size: 14px;
+  color: #3669F0;
+  margin-left: 7px;
+}
+
+.link-blue:hover {
+  color: #1633ff;
+  text-decoration: none;
+}
+
+.link-blue i:hover {
+  color: #1633ff;
+}
+
 
 /************ inizio header *************/
 header {
@@ -140,6 +160,18 @@ header {
   color: #1E68F9;
   text-decoration: underline;
 }
+
+button.google {
+  position: relative;
+}
+
+.logo-google {
+  width: 30px;
+  position: absolute;
+  left: 12px;
+  bottom: 5px;
+  opacity: .7;
+}
 /******** fine sezione jumbotron *********/
 
 /**** inizio sezione partners ****/
@@ -176,30 +208,15 @@ header {
   text-align: center;
   margin-top: 25px;
 }
-
-.partners-link a {
-  font-size: 14px;
-  color: #3669F0;
-}
-
-.partners-link a i {
-  font-size: 14px;
-  color: #3669F0;
-  margin-left: 7px;
-}
-
-.partners-link a:hover {
-  color: #1633ff;
-}
-
-.partners-link a i:hover {
-  color: #1633ff;
-}
 /****** fine sezione partners ******/
 
 /******** inizio sezione informations ********/
 #informations {
 padding: 45px 0;
+}
+
+#informations img {
+  margin-bottom: 10px;
 }
 
 .informations-title {
@@ -254,7 +271,7 @@ padding: 45px 0;
 }
 /******* fine sezione informations ********/
 
-/****** inizio sezione carousel (primo) *******/
+/****** inizio sezione primo carousel  *******/
 .carousel-section {
   background: #F3F5F9;
   padding: 55px 0 120px 0;
@@ -325,6 +342,34 @@ padding: 45px 0;
 .carousel-control .icon-next,
 .carousel-control .icon-prev {
   top: 53%;
+}
+/******* fine sezione primo carousel *******/
+
+/******* inizio sezione features ********/
+#features {
+  padding: 60px 0;
+}
+#features img {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+#features h4 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+#features p {
+  font-size: 17px;
+  opacity: .8;
+}
+
+.features-title {
+  text-align: center;
+}
+
+.features-title h2 {
+  margin-bottom: 40px;
 }
 
 
