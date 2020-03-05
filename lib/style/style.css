@@ -46,7 +46,7 @@ header {
 }
 
 .navbar-default {
-  box-shadow: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
   border: none;
   background: #fff;
 }
