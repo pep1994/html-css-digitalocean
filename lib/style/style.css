@@ -487,6 +487,58 @@ padding: 45px 0;
 }
 /***** fine sezione get started ******/
 
+/****** inizio footer ******/
+footer {
+  padding: 50px 0;
+  background: rgb(6, 27, 76);
+}
+
+.logo-footer {
+  margin-bottom: 8px;
+}
+
+.copy p {
+  color: #8C94A8;
+  font-size: 16px;
+}
+
+.copy p span {
+  color: #5B6785;
+}
+
+.social a {
+  margin-right: 12px;
+}
+
+.social span i {
+  color: #7B859C;
+  font-size: 20px;
+}
+
+.social a:hover span i {
+  color: #fff;
+}
+
+.footer-menu-item h4 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer-menu-item a {
+  color: #A6ADBC;
+  font-size: 16px;
+}
+
+.footer-menu-item a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-menu-item li {
+  margin-top: 7px;
+}
+/******* fine footer ********/
+
 /* media query */
 
 
