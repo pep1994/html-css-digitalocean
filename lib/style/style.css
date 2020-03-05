@@ -77,6 +77,18 @@ header {
   margin-right: 60px;
   padding: 11px 0 11px 15px;
 }
+
+.hamburger-menu {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #fff;
+}
+
+.navbar-default .hamburger-menu span.icon-bar {
+  background-color: #1E68F9;
+}
 /******** fine header *********/
 
 
@@ -542,7 +554,6 @@ footer {
   margin-top: 7px;
 }
 /******* fine footer ********/
-
 
 
 
