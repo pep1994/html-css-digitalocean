@@ -457,7 +457,35 @@ padding: 45px 0;
 .carousel-section.second .carousel-indicators {
   bottom: -60px;
 }
+/******** fine sezione secondo carousel *********/
 
+/****** inizio sezione get started *******/
+#get-started {
+  padding: 50px 0;
+  background: linear-gradient(rgb(17, 63, 182), rgb(11, 33, 154));
+}
+
+.get-started-title, .get-started-button {
+  text-align: center;
+}
+
+.get-started-title h2 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.get-started-button a {
+  color: #1E68F9;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.get-started-button a:hover {
+  text-decoration: none;
+  opacity: .6;
+}
+/***** fine sezione get started ******/
 
 /* media query */
 
