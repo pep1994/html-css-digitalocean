@@ -199,7 +199,7 @@ header {
 
 /******** inizio sezione informations ********/
 #informations {
-
+padding: 45px 0;
 }
 
 .informations-title {
@@ -209,6 +209,10 @@ header {
 .informations-title p {
   font-size: 21px;
   opacity: .8;
+}
+
+.informations-list {
+  padding-left: 90px;
 }
 
 .informations-list ul {
@@ -232,7 +236,7 @@ header {
 }
 
 .information-icon-item {
-  
+  margin-top: 35px;
 }
 
 .information-icon-item h4 {
@@ -243,6 +247,10 @@ header {
 .information-icon-item p {
   font-size: 17px;
   opacity: .8;
+}
+
+.clear {
+  clear: left;
 }
 
 
