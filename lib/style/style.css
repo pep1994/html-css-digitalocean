@@ -31,6 +31,10 @@ h2 {
   color: #1633ff;
 }
 
+.opacity {
+  opacity: .8;
+}
+
 
 /************ inizio header *************/
 header {
@@ -371,7 +375,56 @@ padding: 45px 0;
 .features-title h2 {
   margin-bottom: 40px;
 }
+/******* fine sezione features ********/
 
+/******** inizio sezione tab *********/
+#tab {
+  background: linear-gradient(rgba(19, 65, 189) 27%, rgba(11, 33, 154) 70%);
+  padding: 60px 0;
+}
+.tab-title {
+  text-align: center;
+}
+
+#tab table {
+  width: 100%;
+}
+
+.tab-title h2 {
+  color: #fff;
+}
+
+#tab table th {
+  padding: 10px;
+  color: #fff;
+}
+
+#tab table td {
+  padding: 10px;
+  color: #fff;
+}
+
+#tab table tr {
+  border-bottom: solid 1px rgb(255, 255, 255, .9);
+}
+
+.link-table {
+  color: #25B9C9;
+}
+
+.link-table:hover {
+  color: #1633ff;
+  text-decoration: none;
+}
+
+.link-table i {
+  color: #25B9C9;
+}
+
+.link-table i:hover {
+  color: #1633ff;
+}
+/******* fine sezione tab ********/
 
 
 
