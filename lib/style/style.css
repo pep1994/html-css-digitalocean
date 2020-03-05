@@ -426,7 +426,37 @@ padding: 45px 0;
 }
 /******* fine sezione tab ********/
 
+/****** inizio sezione secondo carousel *******/
+.carousel-section.second img.logo-second-carousel {
+  width: 300px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
 
+.item-carousel-second {
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  padding: 70px 6px;
+  height: 350px;
+}
+
+.item-carousel-second p {
+  font-size: 21px;
+  opacity: .8;
+}
+
+.item-carousel-second h5 {
+  margin-bottom: 30px;
+}
+
+.carousel-section.second h2 {
+  margin-bottom: 100px;
+}
+
+.carousel-section.second .carousel-indicators {
+  bottom: -60px;
+}
 
 
 /* media query */
