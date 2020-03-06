@@ -104,6 +104,10 @@ header {
    box-shadow: none;
  }
 
+ .nav>li>a:focus,
+ .nav>li>a:hover {
+   background: #fff;
+ }
 
   /* inizio menu primo dropdown */
   .dropdown-menu {
@@ -206,7 +210,75 @@ header {
   }
   /* fine menu primo dropdown */
 
-/******** fine header *********/
+  /* inizio menu secondo dropdown */
+  .item-dropdown-right-list ul {
+    list-style-type: none;
+  }
+  .item-dropdown.center a {
+    color: #5b6987;
+  }
+
+  .item-dropdown.center a:hover {
+    text-decoration: none;
+    color: #005fe6;
+  }
+
+  .border .item-dropdown.left {
+    padding-bottom: 40px;
+  }
+
+  .item-dropdown.center {
+    padding: 40px 25px 189px 25px;
+
+  }
+
+  .item-dropdown.center li {
+    margin-top: 20px;
+  }
+
+  .item-dropdown.center ul {
+    padding-left: 20px;
+  }
+  .item-dropdown-right-title h6 {
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .item-dropdown-right {
+    padding: 40px 20px 0 0;
+  }
+
+  .right-list-articles-picture {
+    display: inline-block;
+  }
+
+  .right-list-articles-picture img {
+    width: 70px;
+  }
+
+  .right-list-articles-caption {
+    display: inline-block;
+    width: 75%;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+
+  .right-list-articles-caption p {
+    color: rgba(3,27,78,.7);
+  }
+
+  .right-list-articles {
+    margin-top: 30px;
+  }
+
+  .item-dropdown-right a:hover .right-list-articles-caption p {
+    color: #005fe6;
+  }
+  /* fine menu secondo dropdown */
+
+/************ fine header *************/
 
 
 /******* inizio sezione jumbotron ********/
