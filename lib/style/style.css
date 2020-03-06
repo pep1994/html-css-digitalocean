@@ -848,6 +848,7 @@ footer {
     margin-top: 10px;
   }
 
+
   /* sezione primo carousel */
   .carousel-section #carousel-example-generic img {
     height: auto;
@@ -866,6 +867,12 @@ footer {
   .carousel-indicators.first {
     top: 375px;
   }
+
+  /* sezione features */
+  .features-item {
+    margin-top: 25px;
+  }
+
 
   /* sezione secondo carousel */
   .item-carousel-second {
