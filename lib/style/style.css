@@ -52,6 +52,15 @@ header {
   background: #fff;
 }
 
+.nav.navbar-nav.navbar-right{
+  margin-right: 0;
+}
+
+.navbar-collapse.collapse {
+  overflow: auto!important;
+}
+
+
 .navbar-default .navbar-nav > li > a {
   font-size: 14px;
   color: #031b4e;
@@ -870,7 +879,7 @@ footer {
 
   /* sezione features */
   .features-item {
-    margin-top: 25px;
+    margin-top: 35px;
   }
 
 
