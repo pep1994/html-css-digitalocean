@@ -39,6 +39,7 @@ h2 {
 /************ inizio header *************/
 header {
   height: 50px;
+  position: relative;
 }
 
 .logo {
@@ -46,7 +47,7 @@ header {
 }
 
 .navbar-default {
-  box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 4px rgba(3,27,78,.1);
   border: none;
   background: #fff;
 }
@@ -89,6 +90,122 @@ header {
 .navbar-default .hamburger-menu span.icon-bar {
   background-color: #1E68F9;
 }
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>li>a:hover span {
+  color: #1E68F9;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus {
+   color: #031b4e;
+   background: #fff;
+   box-shadow: none;
+ }
+
+
+  /* inizio menu primo dropdown */
+  .dropdown-menu {
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .menu-dropdown-container {
+    width: 100vw;
+    box-shadow: 0 2px 4px rgba(3,27,78,.1);
+  }
+
+  .nav>li, .dropdown, .dropup {
+    position: static;
+  }
+
+  .dropdown-menu {
+    top: 98%;
+  }
+
+  .item-dropdown ul {
+    list-style-type: none;
+  }
+
+  .item-dropdown.left ul li {
+    margin-top: 20px;
+  }
+
+  .item-dropdown.left ul li:first-child {
+    margin-top: 0;
+  }
+
+  .item-dropdown.left,
+  .item-dropdown.right {
+    padding: 40px 25px;
+  }
+
+  .item-dropdown h6 {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 0;
+  }
+
+  .item-dropdown-content-title,
+  .item-dropdown-content-picture {
+    display: inline-block;
+  }
+
+  .item-dropdown-content-title {
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+
+  .item-dropdown-content-title h4 {
+    margin-bottom: 5px;
+  }
+
+  .item-dropdown-content-title p {
+    color: rgba(3,27,78,.7);
+    font-size: 16px;
+  }
+
+  .item-dropdown.left a:hover .item-dropdown-content-title p,
+  .item-dropdown.left a:hover .item-dropdown-content-title h4  {
+    color: #005fe6;
+  }
+
+  .item-dropdown.right a {
+    color: #5b6987;
+    text-decoration: none;
+    line-height: 30px;
+  }
+
+  .item-dropdown.right a:hover {
+    color: #005fe6;
+  }
+
+  .item-dropdown-content-picture,
+  .item-dropdown-content-right-title h6{
+    display: inline-block;
+  }
+
+  .item-dropdown-content-right-title h6 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .item-dropdown-content-right ul {
+    padding-left: 32px;
+  }
+
+  .all-products {
+    text-align: center;
+    border-top: solid 1px #e5e8ed;
+    padding: 20px 0;
+  }
+
+  .border {
+    border-right: solid 1px #e5e8ed;
+  }
+  /* fine menu primo dropdown */
+
 /******** fine header *********/
 
 
